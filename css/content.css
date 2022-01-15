@@ -1,0 +1,152 @@
+
+body{
+    background-image: linear-gradient(rgba(92, 91, 91, 0.63), rgba(44, 44, 44, 0.822)), url(images/crowd.jpg);
+    align-content: center;
+
+}
+
+#logo1 {
+    position: relative;
+}
+
+#logo1 img{
+    float: right;    
+    margin: 0 50px 0 0;
+    width: 220px;
+    height: auto;
+}
+
+#logo2 {
+    position: relative;
+}
+
+#logo2 img{
+    float: center;    
+    margin: 0 0 0 50px;
+    width: 220px;
+    height: auto;
+}
+
+header {
+    color: rgb(255, 255, 255);
+    text-outline:black;
+	height: 150px;
+	width: 100%;
+	z-index: 10;
+	position: relative;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.63), rgba(7, 7, 7, 0.596)), url(images/crowd.jpg);
+    text-align: center;
+    font-size: 26px;
+    font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style:oblique;
+}
+
+header h1 {
+    position:center;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px #000000;
+}
+
+.buttons{
+    background-color: black;
+    text-outline:black;
+	z-index: 10;
+	position: relative;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.63), rgba(7, 7, 7, 0.596)), url(images/crowd.jpg);
+}
+
+nav{
+	position: relative;
+	margin: auto auto auto;
+	width: 680px;
+	height: 60px;
+	background: linear-gradient(rgb(63, 63, 63), rgba(60, 64, 97, 0.733));
+	border-radius: 8px;
+	font-size: 0;
+	box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, 0.753);
+}
+nav a{
+    font-family:sans-serif;
+	font-size: 18px;
+    font-style: oblique;
+    font-weight: bold;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+    text-shadow: 4px 5px 5px #000000;
+	text-decoration: none;
+	line-height: 24px;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	text-align: center;
+}
+nav .animation{
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	background: linear-gradient(rgba(212, 0, 255, 0.76), rgba(11, 21, 29, 0.774));
+	border-radius: 8px;
+	transition: all .3s ease 0s;
+}
+nav a:nth-child(1){
+	width: 100px;
+}
+nav .start-home, a:nth-child(1):hover~.animation{
+	width: 100px;
+	left: 0;
+}
+nav a:nth-child(2){
+	width: 110px;
+}
+nav a:nth-child(2):hover~.animation{
+	width: 110px;
+	left: 100px;
+}
+nav a:nth-child(3){
+	width: 100px;
+}
+nav a:nth-child(3):hover~.animation{
+	width: 100px;
+	left: 210px;
+}
+nav a:nth-child(4){
+	width: 69px;
+}
+nav a:nth-child(4):hover~.animation{
+	width: 69px;
+	left: 310px;
+}
+nav a:nth-child(5){
+	width: 169px;
+}
+nav a:nth-child(5):hover~.animation{
+	width: 169px;
+	left: 375px;
+}
+nav a:nth-child(6){
+	width: 130px;
+}
+nav a:nth-child(6):hover~.animation{
+	width: 130px;
+	left: 555px;
+}
+
+article{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.849);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+footer{
+    text-align: center;
+    color: cornsilk;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(5, 5, 5, 0.815)
+    position: relative;
+    text-align: center;
+}
